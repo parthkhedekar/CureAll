@@ -56,5 +56,5 @@ public class Doctor
 
     public virtual Hospital? Hospital { get; set; }
     public virtual Department? Department { get; set; }
-    
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
 }

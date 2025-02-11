@@ -30,6 +30,6 @@ namespace MultiHospital.Models
         public virtual Hospital? Hospital { get; set; } = null!; // Non-nullable reference to Hospital
         public byte[]? Image { get; set; } // Store image as binary data
 
-       
+        public virtual ICollection<Doctor> Doctors { get; set; } = new List<Doctor>();
     }
 }
