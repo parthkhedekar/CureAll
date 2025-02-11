@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parth\\Desktop\\Dac24\\Project\\MyProject\\Cloned\\CureAll\\Backend\\Backend\\Backend.csproj": {}
+    "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parth\\Desktop\\Dac24\\Project\\MyProject\\Cloned\\CureAll\\Backend\\Backend\\Backend.csproj": {
+    "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parth\\Desktop\\Dac24\\Project\\MyProject\\Cloned\\CureAll\\Backend\\Backend\\Backend.csproj",
+        "projectUniqueName": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\parth\\Desktop\\Dac24\\Project\\MyProject\\Cloned\\CureAll\\Backend\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\parth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parth\\Desktop\\Dac24\\Project\\MyProject\\Cloned\\CureAll\\Backend\\Backend\\obj\\",
+        "projectPath": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\prati\\.nuget\\packages\\",
+        "outputPath": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\parth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
