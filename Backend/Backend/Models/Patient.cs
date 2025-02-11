@@ -45,5 +45,5 @@ public class Patient
     [MaxLength(5000000)]
     public byte[]? Image { get; set; }
 
-    
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
 }

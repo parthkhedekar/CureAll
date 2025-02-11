@@ -32,7 +32,7 @@ namespace MultiHospital.Models
             [DataType(DataType.DateTime)]
             public DateTime UpdatedAt { get; set; } = DateTime.UtcNow; // Default to current UTC time
 
-           
+            public virtual ICollection<Doctor> Doctors { get; set; } = new List<Doctor>();
             public virtual ICollection<Department> Departments { get; set; } = new List<Department>();
 
     }
