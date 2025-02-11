@@ -34,6 +34,8 @@ namespace MultiHospital
             // Add dependency for AuthService.
             builder.Services.AddScoped<IAuthService, AuthService>();
 
+            // Register DataSeeder as a scoped service.
+            builder.Services.AddScoped<DataSeeder>();
 
             builder.Services.AddControllers().AddJsonOptions(options =>
             {
@@ -107,7 +109,21 @@ namespace MultiHospital
 
             var app = builder.Build();
 
-            
+            // Seed the static admin user
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var dataSeeder = services.GetRequiredService<DataSeeder>(); // Inject DataSeeder here
+                try
+                {
+                    await dataSeeder.SeedAdminUserAsync(services);
+                }
+                catch (Exception ex)
+                {
+                    // Log any errors during seeding.
+                    Console.WriteLine("An error occurred seeding the admin user: " + ex.Message);
+                }
+            }
 
             // Enable Swagger (in development)
             if (app.Environment.IsDevelopment())
