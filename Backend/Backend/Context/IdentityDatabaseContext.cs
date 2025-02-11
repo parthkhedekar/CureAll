@@ -1,6 +1,7 @@
 ﻿using MultiHospital.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Numerics;
 
 namespace MultiHospital.Context
 {
@@ -10,9 +11,10 @@ namespace MultiHospital.Context
         {
 
         }
-      
+        public DbSet<Admin> Admins { get; set; }
         public DbSet<Hospital> Hospitals { get; set; }
-      
+        public DbSet<Department> Departments { get; set; }
+       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,8 +27,11 @@ namespace MultiHospital.Context
                 .HasForeignKey(d => d.HospitalID)
                 .OnDelete(DeleteBehavior.Cascade);
 
+          
             
-       
+
+        
+
         }
 
 
