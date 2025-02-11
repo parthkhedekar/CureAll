@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Migrations\\20250211044956_AppointmentTreatmentRecordAndUserRoleModelAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20250211044956_AppointmentTreatmentRecordAndUserRoleModelAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\migrations\\20250211044956_appointmenttreatmentrecordanduserrolemodeladded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\migrations\\20250211044956_appointmenttreatmentrecordanduserrolemodeladded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\models\\treatmentrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\migrations\\20250211043335_hospitaldepartmentandadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98C2E3CD-9C20-43FC-804B-D64E1500E834}|Backend\\Backend.csproj|d:\\shri project for git\\myproject\\cureall\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -90,11 +102,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HospitalController.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\HospitalController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\HospitalController.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\HospitalController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\HospitalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:55:05.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:20:16.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:53:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:53:48.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "20250211044956_AppointmentTreatmentRecordAndUserRoleModelAdded.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Migrations\\20250211044956_AppointmentTreatmentRecordAndUserRoleModelAdded.cs",
               "RelativeDocumentMoniker": "Backend\\Migrations\\20250211044956_AppointmentTreatmentRecordAndUserRoleModelAdded.cs",
@@ -107,20 +171,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TreatmentRecord.cs",
-              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\TreatmentRecord.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\TreatmentRecord.cs",
-              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\TreatmentRecord.cs",
-              "RelativeToolTip": "Backend\\Models\\TreatmentRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Services\\AuthService.cs",
+              "RelativeToolTip": "Backend\\Services\\AuthService.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowLEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:49:49.391Z",
+              "WhenOpened": "2025-02-11T04:32:53.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowH4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T22:48:33.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Hospital.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Hospital.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Hospital.cs",
@@ -128,12 +205,23 @@
               "RelativeToolTip": "Backend\\Models\\Hospital.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T22:46:41.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T22:46:41.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "TreatmentRecord.cs",
+              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\TreatmentRecord.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\TreatmentRecord.cs",
+              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\TreatmentRecord.cs",
+              "RelativeToolTip": "Backend\\Models\\TreatmentRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:49:49.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\LoginModel.cs",
@@ -141,12 +229,11 @@
               "RelativeToolTip": "Backend\\Models\\LoginModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:42:29.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:42:29.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Patient.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Patient.cs",
@@ -154,12 +241,11 @@
               "RelativeToolTip": "Backend\\Models\\Patient.cs",
               "ViewState": "AgIAACIAAAAAAAAAAADwvy8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:42:32.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:42:32.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "RoleModel.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\RoleModel.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\RoleModel.cs",
@@ -167,12 +253,11 @@
               "RelativeToolTip": "Backend\\Models\\RoleModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:23:04.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:23:04.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Doctor.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Doctor.cs",
@@ -180,12 +265,11 @@
               "RelativeToolTip": "Backend\\Models\\Doctor.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAA4wDoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:42:17.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:42:17.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Department.cs",
@@ -193,12 +277,11 @@
               "RelativeToolTip": "Backend\\Models\\Department.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:30:19.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:30:19.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Appointment.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Appointment.cs",
@@ -206,12 +289,11 @@
               "RelativeToolTip": "Backend\\Models\\Appointment.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:49:19.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:49:19.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "AddUserRolesModel.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\AddUserRolesModel.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\AddUserRolesModel.cs",
@@ -219,12 +301,11 @@
               "RelativeToolTip": "Backend\\Models\\AddUserRolesModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:42:11.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:42:11.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "IdentityDatabaseContext.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Context\\IdentityDatabaseContext.cs",
               "RelativeDocumentMoniker": "Backend\\Context\\IdentityDatabaseContext.cs",
@@ -232,12 +313,11 @@
               "RelativeToolTip": "Backend\\Context\\IdentityDatabaseContext.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAowEUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:19:27.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:19:27.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Admin.cs",
@@ -245,12 +325,11 @@
               "RelativeToolTip": "Backend\\Models\\Admin.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:30:16.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:30:16.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "20250211044404_DoctorPatientLoginModelAdded.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Migrations\\20250211044404_DoctorPatientLoginModelAdded.cs",
               "RelativeDocumentMoniker": "Backend\\Migrations\\20250211044404_DoctorPatientLoginModelAdded.cs",
@@ -258,12 +337,11 @@
               "RelativeToolTip": "Backend\\Migrations\\20250211044404_DoctorPatientLoginModelAdded.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:44:04.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T04:44:04.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "20250211043335_HospitalDepartmentAndAdminModel.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Migrations\\20250211043335_HospitalDepartmentAndAdminModel.cs",
               "RelativeDocumentMoniker": "Backend\\Migrations\\20250211043335_HospitalDepartmentAndAdminModel.cs",
@@ -275,31 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Backend\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Services\\AuthService.cs",
-              "RelativeToolTip": "Backend\\Services\\AuthService.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAkwHAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:32:53.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwBkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T22:48:33.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Interface\\IAuthService.cs",
               "RelativeDocumentMoniker": "Backend\\Interface\\IAuthService.cs",
@@ -311,19 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T04:20:16.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
@@ -335,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Backend.csproj",
               "DocumentMoniker": "D:\\Shri Project for git\\MyProject\\CureAll\\Backend\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend\\Backend.csproj",
