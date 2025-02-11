@@ -103,7 +103,35 @@ namespace MultiHospital.Controllers
             return Ok(departments);
         }
 
-        
+        // GET: api/department/{departmentId}/doctors
+        [HttpGet("{departmentId}/doctors")]
+        [AllowAnonymous]
+        public async Task<ActionResult<IEnumerable<DoctorGetDto>>> GetDoctorsByDepartment(int departmentId)
+        {
+            // Check if the department exists
+            var departmentExists = await _context.Departments.AnyAsync(d => d.DepartmentID == departmentId);
+            if (!departmentExists)
+            {
+                return NotFound(new { message = "Department not found." });
+            }
+
+            // Retrieve all doctors associated with the specified department
+            var doctors = await _context.Doctors
+                .Where(d => d.DepartmentID == departmentId) // Filter by department ID
+                .Select(d => new DoctorGetDto
+                {
+                    DoctorID = d.DoctorID,
+                    Name = d.Name,
+                    Specialization = d.Specialization,
+                    Phone = d.Phone,
+                    Email = d.Email,
+                    HospitalName = d.Hospital.Name, // Assuming Hospital has a Name property
+                    DepartmentName = d.Department.Name // Assuming Department has a Name property
+                })
+                .ToListAsync();
+
+            return Ok(doctors);
+        }
 
         [HttpPost]
         public async Task<ActionResult<Department>> PostDepartment([FromForm] DepartmentCreateDto departmentDto)
