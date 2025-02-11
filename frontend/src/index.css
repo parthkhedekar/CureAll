@@ -7,6 +7,10 @@
     font-family: Outfit;
 }
 
+.active hr{
+    @apply block
+}
+
 ::-webkit-scrollbar{
-    display: none;
+    @apply hidden
 }
