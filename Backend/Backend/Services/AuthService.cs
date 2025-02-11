@@ -110,7 +110,11 @@ namespace MultiHospital.Services
     };
 
             // Fetch the user-specific ID (patient, doctor, admin)
-            
+            var userSpecificId = await GetUserSpecificIdAsync(user, roles);
+            if (userSpecificId != null)
+            {
+                claims.Add(new Claim("userSpecificId", userSpecificId)); // Add user-specific ID
+            }
 
             // Combine user claims with role claims.
             claims.AddRange(roleClaims);
@@ -133,7 +137,29 @@ namespace MultiHospital.Services
         }
 
 
-        
+        private async Task<string> GetUserSpecificIdAsync(IdentityUser user, IList<string> roles)
+        {
+            // Check if the user is a Patient
+            if (roles.Contains("patient"))
+            {
+                var patient = await _context.Patients.FirstOrDefaultAsync(p => p.UserId == user.Id);
+                return patient?.PatientID.ToString();  // Patient ID
+            }
+            // Check if the user is a Doctor
+            else if (roles.Contains("doctor"))
+            {
+                var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.UserId == user.Id);
+                return doctor?.DoctorID.ToString();  // Doctor ID
+            }
+            // Check if the user is an Admin
+            else if (roles.Contains("admin"))
+            {
+                var admin = await _context.Admins.FirstOrDefaultAsync(a => a.UserId == user.Id);
+                return admin?.AdminID.ToString();  // Admin ID
+            }
+            // If the user doesn't match any of the known roles, return null
+            return null;
+        }
 
 
         public async Task<bool> EnsureRoleExistsAsync(string roleName)
