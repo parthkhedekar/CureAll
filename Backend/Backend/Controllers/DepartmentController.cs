@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MultiHospital.Context; // Adjust the namespace according to your project structure
+using MultiHospital.Context; 
 using MultiHospital.DTOs;
-using MultiHospital.Models; // Adjust the namespace according to your project structure
+using MultiHospital.Models; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
