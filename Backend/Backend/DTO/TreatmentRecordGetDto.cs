@@ -30,7 +30,6 @@ namespace MultiHospital.DTOs
 
         public DateTime UpdatedAt { get; set; } // Last update timestamp
 
-        // Optional: Include billing information if available
         
     }
 
