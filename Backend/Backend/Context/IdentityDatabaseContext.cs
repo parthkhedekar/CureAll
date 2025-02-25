@@ -25,35 +25,30 @@ namespace MultiHospital.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            // Hospital - Department Relationship ✅ (Cascade Allowed)
             modelBuilder.Entity<Hospital>()
                 .HasMany(h => h.Departments)
                 .WithOne(d => d.Hospital)
                 .HasForeignKey(d => d.HospitalID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Department - Doctor Relationship ✅ (Cascade Allowed)
             modelBuilder.Entity<Department>()
                 .HasMany(d => d.Doctors)
                 .WithOne(doc => doc.Department)
                 .HasForeignKey(doc => doc.DepartmentID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // ❌ Prevent Multiple Cascade Paths for Doctor
             modelBuilder.Entity<Doctor>()
                 .HasOne(d => d.Hospital)
                 .WithMany(h => h.Doctors)
                 .HasForeignKey(d => d.HospitalID)
-                .OnDelete(DeleteBehavior.NoAction); // ❌ Fix multiple cascade paths
+                .OnDelete(DeleteBehavior.NoAction); 
 
-            // Doctor - Appointment Relationship
             modelBuilder.Entity<Doctor>()
                 .HasMany(d => d.Appointments)
                 .WithOne(a => a.Doctor)
                 .HasForeignKey(a => a.DoctorID)
-                .OnDelete(DeleteBehavior.Cascade); // ❌ Prevent cascading conflicts
+                .OnDelete(DeleteBehavior.Cascade); 
 
-            // Patient - Appointment Relationship
             modelBuilder.Entity<Patient>()
                 .HasMany(p => p.Appointments)
                 .WithOne(a => a.Patient)
